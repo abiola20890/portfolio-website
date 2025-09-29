@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Ibilola Samson Abiola</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 10px;
+        }
+          h2 {
+            color: rgb(0, 128, 66);
+            text-align: center;
+        }
+         img {
+            border-radius: 50%; /* make image circular */
+            border: 3px solid teal;
+            float: left; margin-right: 15px; margin-bottom: 10px;
+            max-width:300px; height: 350px; 
+            
+        }
+      a {
+            color: teal;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #43ef09;
+            
+        }
+        a:active{color: #43ef09;
+
+        }
+        .classSelector{ overflow: auto;
+
+        }
+        h1 {
+            color: rgb(0, 128, 66);
+            text-align: center;
+
+        }
+        .light-mode{
+            background-color: #ffffff;
+            color: #121212
+        }
+
+        button {
+             background-color: teal;
+             border: none;
+             padding: 10px 15px;
+             border-radius: 5px;
+             color: white;
+        }
+
+        button:hover {
+             background-color: #43ef09;
+        }
+
+        .light-mode button {
+            background-color: #121212;
+            color: white;
+        }
+        .light-mode button:hover {
+            background-color: #555;
+        }
+
+        nav {
+            background-color: teal;   
+            padding: 10px 0;
+            text-align: center; 
+            position: sticky;
+            top: 0;
+               
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;          
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #43ef09;          
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align:center; 
+            margin-top:30px;
+        }
+
+      
+         
+
+    </style>
+</head>
+<body>
+    <nav>
+  <a href="#about">About</a> 
+  <a href="#projects">Projects</a> 
+  <a href="#skills">Skills</a> 
+  <a href="#contact">Contact</a> 
+  <a href="#Education">Education</a>
+    </nav>
+
+
+     <h1>My Portfolio — Ibilola Samson Abiola</h1>  
+     <hr>       
+    <div class="classSelector">
+    <img src="pic.jpg" alt="My profile picture"/>
+    <h2 id="about">About me Section</h2>
+    <hr>
+    <p>Hello! My name is Ibilola Samson Abiola. I am a beginner front-end web developer currently learning HTML as the foundation of my
+    journey into web development. I enjoy bringing ideas to life on the web and I am excited to keep growing my skills step
+    by step.</p>
+    <p>I am also a <b>Data Analyst</b> and an aspiring <b>Machine Learning Engineer</b>.  
+    I love working with data to uncover insights, solve problems, and build intelligent solutions.</p>
+
+    <p>I am passionate about creating simple, clean, and user-friendly websites. My goal is to advance into full-stack
+    development and work on projects that solve real-world problems. This portfolio is just the beginning of my journey, and
+    I look forward to sharing more as I learn and build.</p>
+     
+    </div>
+    
+    <hr>
+    <h2 id="projects">Projects Section</h2>
+    <hr>
+    <ol>
+        <li><b>Project 1:</b>  Data Analysis with Google Sheets
+            <a href="https://docs.google.com/spreadsheets/d/1esLjE5QRo1sUvdItIcobbsN27nPphDHk-dTTINg6-mE/edit?usp=sharing">View Project</a>
+            <p>A project where I used Google Sheets to clean, analyze, and visualize data.</p>
+        </li>
+
+        <li><b>Project 2:</b> Data Analysis with Google Sheets
+            <a href="https://docs.google.com/spreadsheets/d/1m6qZERnURj7sgPoUr4Z7NwQccszi77wKxuNU5ohFqb8/edit?usp=sharing">View Project</a>
+            <p>A project where I used Google Sheets to clean, analyze, and visualize data.</p>
+        </li>
+
+        <li><b>Project 3:</b> SQL Database Queries
+            <a href="https://github.com/abiola20890/SQL-Project.git">View Project</a>
+            <p>A collection of SQL script for creating tables, updating records, and running queries.</p>
+        </li>
+    </ol>
+    <hr>
+    <h2 id="Education">Education Section</h2>
+    <hr>
+    <p>Bachelor of Chemical Engineering — Federal University of Technology, Minna, Nigeria</p>
+    <hr>
+    <h3 id="skills">Skills Section </h3>
+    <hr>
+    <div>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>Excel</li>
+            <li>Power BI</li>
+            <li>Machine Learning</li>
+            <li>MY SQL</li>
+        </ol>
+    </div>
+
+    <hr>
+    <h2 id="contact">Contact Me</h2>
+    <hr>
+    <ul>
+        <li>
+            <b>Email:</b> ibilolaabiola75@gmail.com
+        </li>
+
+        <li>
+            <b>Phone:</b> <a href="tel:+2347061807299">+234 7061-807299</a>
+
+        </li>
+
+        <li>
+            <b>GitHub:</b> <a href="https://github.com/abiola20890">View Profile</a>
+
+        </li>
+        <li>
+            <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/ibilola-abiola/">View Profile</a>
+
+        </li>
+    </ul>
+
+    <button onclick="toggletheme()">Toggle Theme</button>
+
+    <script>
+
+        function toggletheme() {
+            document.body.classList.toggle("light-mode");
+            
+        }
+        
+    </script>
+
+
+<footer>
+    <p>© 2025 Ibilola Samson Abiola | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
